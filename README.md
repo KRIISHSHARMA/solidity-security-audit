@@ -7,6 +7,12 @@
 - Mythril : `docker pull mythril/myth`
 - Slither : `docker pull trailofbits/eth-security-toolbox`
 
-# Steps
-- Create a directory `mkdir Contract`
+# Solgraph Steps
+- Create a directory `mkdir data`
 - Create a sol file `MyContract.sol`
+- Run solgraph :
+``` sh
+docker run -it --rm -v $PWD:/data devopstestlab/solgraph
+```
+- After running it wioth success
+- Go to data direc and see the image generated toi see untrusted elements
