@@ -6,3 +6,7 @@
 - Solgraph : `docker pull devopstestlab/solgraph`
 - Mythril : `docker pull mythril/myth`
 - Slither : `docker pull trailofbits/eth-security-toolbox`
+
+# Steps
+- Create a directory `mkdir Contract`
+- Create a sol file `MyContract.sol`
