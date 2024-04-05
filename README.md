@@ -15,4 +15,6 @@
 docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 ```
 - After running it wioth success
-- Go to data direc and see the image generated toi see untrusted elements
+- Go to data direc and see the image generated to see untrusted elements
+
+# Slither Steps
