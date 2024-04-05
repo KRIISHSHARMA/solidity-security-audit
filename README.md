@@ -4,5 +4,5 @@
 
 ## Security Audits for Solidity
 - Solgraph : `docker pull devopstestlab/solgraph`
-- Mythril : 
-- Slither : 
+- Mythril : `docker pull mythril/myth`
+- Slither : `docker pull trailofbits/eth-security-toolbox`
