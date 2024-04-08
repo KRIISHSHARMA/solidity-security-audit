@@ -26,4 +26,7 @@ docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 - Now open another terminal
 - Go to the root directory of the contract file (in my case `data`)
 - use cmd : `sudo docker container ls` to find container id
-- 
+- This will basically provide you the container ID, image, and other relevant details of the container. We will require the container ID in the next command.
+- Now to copy sol file in the container:
+``` sh
+
