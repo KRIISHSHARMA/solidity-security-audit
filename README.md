@@ -17,6 +17,8 @@ docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 - After running it wioth success
 - Go to data direc and see the image generated to see untrusted elements
 
+![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/8660083a-5e02-42f0-8b54-d5690231b1f9)
+
 # Slither Steps [reference](https://medium.com/@abhijeet.sinha383/test-solidity-contract-file-using-slither-testing-tool-4f7e3e8692dd)
 - Pull Docker Image for slither : `docker pull trailofbits/eth-security-toolbox`
 - Run it : `docker run -it --rm -v $PWD:/data trailofbits/eth-security-toolbox`
