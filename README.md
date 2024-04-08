@@ -51,3 +51,11 @@ slither filename.sol
 ```
 ![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/54c415e3-b435-4c39-85ea-b88664e6ffc5)
 
+- The second command we will run is:
+``` sh
+slither-check-erc filename.sol <contract name in code>
+```
+![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/2f1887b2-ed0e-484e-b74c-64850ca1bf22)
+
+- So this command is for those smart contracts that are inheriting ERC features. And this command checks all the ‘must-have’ elements that an ERC token should have.
+
