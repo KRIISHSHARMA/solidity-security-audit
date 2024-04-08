@@ -44,3 +44,10 @@ ii. container id (which we received from last command)
 iii. container file path (go to the first terminal and write ‘pwd’ to get present directory of container)
 
 - So what this command basically does is it will copy the contract file and paste it inside the container environment so that we can run slither commands on it.
+
+- Go to the first terminal where the container environment is running. And, write the command:
+``` sh
+slither filename.sol
+```
+![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/54c415e3-b435-4c39-85ea-b88664e6ffc5)
+
