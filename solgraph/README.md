@@ -7,4 +7,5 @@ docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 ```
 - After running it wioth success
 - Go to data direc and see the image generated to see untrusted elements
-[image](solgraph/MyContract.jpg)
+
+(solgraph/MyContract.jpg)
