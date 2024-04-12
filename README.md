@@ -79,8 +79,7 @@ docker run mythril/myth disassemble -c "0x6060"
 ``` sh
 docker run -v $(pwd):/tmp mythril/myth analyze /tmp/contract.sol
 ```
-
-
+![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/3a2302db-8829-4cac-964d-64c3a8a2380b)
 
 # [Surya Steps](surya) 
 - [github](https://github.com/Consensys/surya)
