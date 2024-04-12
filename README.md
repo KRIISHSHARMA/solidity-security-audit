@@ -61,7 +61,8 @@ slither-check-erc filename.sol <contract name in code>
 
 - So this command is for those smart contracts that are inheriting ERC features. And this command checks all the ‘must-have’ elements that an ERC token should have.
 
-# [Surya Steps](surya) [github](https://github.com/Consensys/surya)
+# [Surya Steps](surya) 
+- [github](https://github.com/Consensys/surya)
 - Dependecies :
   1. npm
   2. gaphviz (for gaph) : `sudo apt install graphviz`
