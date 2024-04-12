@@ -7,7 +7,7 @@
 - Surya: `npm install -g surya`
 - Slither : `docker pull trailofbits/eth-security-toolbox`
 
-# Solgraph Steps
+# [Solgraph Steps](solgraph)
 - Create a directory `mkdir data`
 - Create a sol file `MyContract.sol`
 - Run solgraph :
@@ -19,7 +19,7 @@ docker run -it --rm -v $PWD:/data devopstestlab/solgraph
 
 ![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/8660083a-5e02-42f0-8b54-d5690231b1f9)
 
-# Slither Steps [reference](https://medium.com/@abhijeet.sinha383/test-solidity-contract-file-using-slither-testing-tool-4f7e3e8692dd)
+# [Slither Steps](slither) [reference](https://medium.com/@abhijeet.sinha383/test-solidity-contract-file-using-slither-testing-tool-4f7e3e8692dd)
 - Pull Docker Image for slither : `docker pull trailofbits/eth-security-toolbox`
 - Run it : `docker run -it --rm -v $PWD:/data trailofbits/eth-security-toolbox`
 
@@ -61,7 +61,7 @@ slither-check-erc filename.sol <contract name in code>
 
 - So this command is for those smart contracts that are inheriting ERC features. And this command checks all the ‘must-have’ elements that an ERC token should have.
 
-# Surya Steps [github](https://github.com/Consensys/surya)
+# [Surya Steps](surya) [github](https://github.com/Consensys/surya)
 - Dependecies :
   1. npm
   2. gaphviz (for gaph) : `sudo apt install graphviz`
