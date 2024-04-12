@@ -81,7 +81,7 @@ surya graph contracts/**/*.sol | dot -Tpng > MyContract.png
 ``` sh
 surya flatten MyContract.sol
 ```
-## Parse : The parse command outputs a treefied AST object coming from the parser.
+## [Parse](surya/parse) : The parse command outputs a treefied AST object coming from the parser.
 
 -  -j/--json - Return a JSON object instead of a treefied object.
 
