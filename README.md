@@ -81,4 +81,16 @@ surya graph contracts/**/*.sol | dot -Tpng > MyContract.png
 ``` sh
 surya flatten MyContract.sol
 ```
+## Parse : The parse command outputs a treefied AST object coming from the parser.
 
+-  -j/--json - Return a JSON object instead of a treefied object.
+
+``` sh
+surya parse MyContract.sol
+```
+## mdreport : The mdreport command creates a Markdown description report with tables comprising information about the system's files, contracts and their functions. Much like describe but outputting to a nicely formatted Markdown file.
+
+- SEE IN SURYA FOLDER
+``` sh
+surya mdreport report_outfile.md MyContract.sol
+```
