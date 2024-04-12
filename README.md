@@ -4,7 +4,7 @@
 
 ## Security Audits for Solidity
 - Solgraph : `docker pull devopstestlab/solgraph`
-- Mythril : `docker pull mythril/myth`
+- Surya: `npm install -g surya`
 - Slither : `docker pull trailofbits/eth-security-toolbox`
 
 # Solgraph Steps
@@ -60,4 +60,15 @@ slither-check-erc filename.sol <contract name in code>
 ![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/2f1887b2-ed0e-484e-b74c-64850ca1bf22)
 
 - So this command is for those smart contracts that are inheriting ERC features. And this command checks all the ‘must-have’ elements that an ERC token should have.
+
+# Surya Steps [github](https://github.com/Consensys/surya)
+- Dependecies :
+  1. npm
+  2. gaphviz (for gaph) : `sudo apt install graphviz`
+
+- Install Surya : `npm install -g surya`
+- mkdir "contacts"
+- Write a simple solidity Contract
+
+## gaph 
 
