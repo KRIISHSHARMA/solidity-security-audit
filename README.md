@@ -70,5 +70,15 @@ slither-check-erc filename.sol <contract name in code>
 - mkdir "contacts"
 - Write a simple solidity Contract
 
-## gaph 
+## graph : The graph command outputs a DOT-formatted graph of the control flow.
+``` sh
+surya graph contracts/**/*.sol | dot -Tpng > MyContract.png
+```
+![MyContract](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/a300e7d5-363c-40b0-8111-d7ea1168dd42)
+
+## flatten : The flatten command outputs a flattened version of the source code, with all import statements replaced by the corresponding source code. Import statements that reference a file that has already been imported, will simply be commented out.
+
+``` sh
+surya flatten MyContract.sol
+```
 
