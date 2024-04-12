@@ -25,6 +25,8 @@ surya flatten MyContract.sol
 ``` sh
 surya parse MyContract.sol
 ```
+![image](https://github.com/KRIISHSHARMA/solidity-security-audit/assets/86760658/b91ff65a-0aab-484f-bc03-b0e30f5ccfc7)
+
 ## mdreport : The mdreport command creates a Markdown description report with tables comprising information about the system's files, contracts and their functions. Much like describe but outputting to a nicely formatted Markdown file.
 
 - SEE IN SURYA FOLDER
