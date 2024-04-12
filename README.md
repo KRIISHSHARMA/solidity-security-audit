@@ -62,7 +62,7 @@ slither-check-erc filename.sol <contract name in code>
 
 - So this command is for those smart contracts that are inheriting ERC features. And this command checks all the ‘must-have’ elements that an ERC token should have.
 
-# Mythril(mythril)
+# [Mythril](mythril)
 - [reference](https://mythril-classic.readthedocs.io/en/master/installation.html)
 
 - Pull the latest release of mythril/myth
